@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F0F0F0;
+  height: 100%;
+  overflow: auto;
+}
+
+.title {
+  color: #606060;
+}
+
+.container {
+  position: relative;
+  width: 940px;
+  height: 726px;
+}
+
+#stage {
+  cursor: crosshair;
+  background-color: white;
+  border: 3px solid #d0d0d0;
+  border-radius: 10px;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#minimap {
+  cursor: hand;
+  background-color: white;
+  border: 3px solid #d0d0d0;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#info {
+  border-color: transparent;
+  color: #303030;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

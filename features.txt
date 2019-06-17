@@ -1,0 +1,34 @@
+Basic features: 
+----------
+Use of canvas 
+Player starts w/o weapon, can pick up 
+keyboard movement wasd 
+mouse to move crosshair
+ammo runs out
+ammo can be picked up (run over the boxes)
+ammo on display 
+health on display
+can fire weapon, projectile on display 
+opponents (AI) can be killed 
+player can be killed (ai either does damage by collision or shooting)
+large world scrolling centered round player 
+obstacles present (tree and pond)
+multiple AI oppononents
+player start in center of map 
+Multiple projectiles fired from player weapon at the same time.
+Projectile has limited range, impacts opponents and other obstacles in map.
+
+Addiotional Features:
+____________
+Diff AI have different velocities 
+Movement through terrain at different velocities (if player is in pond, move slower)
+Use of animation to smooth out rendering 
+Obstacles can be destroyed (shoot trees in right spot)
+Interesting items: rocket, shotgun, rifle, health packs, ammo, barbed wire
+Inventory present 
+Player can build (bared wire fence, if you have material found in special box)
+Multiple types of AI (the devil and normal AI)
+Buildings with interiors (well, we have a pond which you can go inside, analogous)
+Transporter pods (jetpack. Might not work (?))
+Minimap 
+The amount of kills the player has is on display
